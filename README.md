@@ -1,6 +1,6 @@
 # 📅 Event Calendar Application
 
-![Calendar UI Preview](./CustomEventCalendarImage)<!-- Replace with your actual screenshot -->
+![Calendar UI Preview](./CustomEventCalendarImage.jpg)<!-- Replace with your actual screenshot -->
 
 A sleek and fully-featured event calendar built with React, designed for seamless event management and scheduling
 
