@@ -37,4 +37,4 @@ git clone https://github.com/Gunavardhansai/CustomEventCalendar.git
 cd CustomEventCalendar
 npm install
 npm run dev
-Open your browser at http://localhost:3000 (or the port specified) to start using the calendar.
+//Open your browser at http://localhost:3000 (or the port specified) to start using the calendar.
