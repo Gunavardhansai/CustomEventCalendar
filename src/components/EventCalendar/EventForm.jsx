@@ -152,16 +152,15 @@ const EventForm = ({ event, onSave, onCancel, onDelete }) => {
                       key={color.value}
                       type="button"
                       onClick={() => setFormData(prev => ({ ...prev, color: color.value }))}
-                      className={`w-8 h-8 rounded-full flex items-center justify-center transition-transform duration-200 focus:outline-none
-                        ${isSelected ? 'ring-2 ring-offset-2 ring-blue-500 scale-110' : 'hover:scale-110'}`}
+                      className={`w-8 h-8 rounded-full border-2 flex items-center justify-center transition-transform duration-200 focus:outline-none
+                        ${isSelected ? 'ring-2 ring-offset-2 ring-blue-500 scale-110' : 'hover:scale-110'}
+                        ${color.bg} ${color.border}`}
                       aria-label={`Select ${color.label} color`}
                     >
-                      <span
-                        className={`w-5 h-5 rounded-full ${color.className} border border-white shadow-sm`}
-                      ></span>
+                      <div className="w-4 h-4 rounded-full bg-white"></div>
                     </button>
                   );
-                ))}
+                })}
               </div>
             </div>
             
