@@ -36,16 +36,16 @@ const Event = ({
   return (
     <div
       role="button"
-      aria-label={`Event: ${title}`}
+      aria-label={Event: ${title}}
       tabIndex={0}
       draggable
       onClick={handleClick}
       onDragStart={handleDragStart}
       onDragEnd={onDragEnd}
       onKeyDown={(e) => e.key === 'Enter' && handleClick(e)}
-      className={`${colorClass} text-white text-xs p-1.5 rounded cursor-pointer transition-opacity ${
+      className={${colorClass} text-white text-xs p-1.5 rounded cursor-pointer transition-opacity ${
         isDragging ? 'opacity-50' : 'opacity-100'
-      } hover:opacity-80`}
+      } hover:opacity-80}
     >
       <div className="font-medium truncate">{title}</div>
       <div className="flex items-center gap-1 text-white/80">
